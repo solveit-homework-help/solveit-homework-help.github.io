@@ -1,17 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>homework-helper-portal</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-    <meta property="og:image" content="/og-image.png" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolveIt - The Ultimate Study Companion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
 
-  <body>
-    <div id="root"></div>
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+        body {
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(to right, #FF7E5F, #FEB47B);
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+        }
+
+        header button {
+            margin: 1rem 0.5rem;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #FF7E5F;
+            background-color: #fff;
+        }
+
+        header button:hover {
+            background-color: #f2f2f2;
+        }
+
+        section {
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .feature {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+        }
+
+        .feature h3 {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+            color: #FF7E5F;
+        }
+
+        footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            color: #888;
+        }
+
+        .btn-download {
+            margin-top: 2rem;
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #fff;
+            background-color: #FF7E5F;
+            text-decoration: none;
+        }
+
+        .btn-download:hover {
+            background-color: #ff6b4a;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Ultimate Study Companion for Students!</h1>
+        <p>Get instant help with your homework, connect with tutors, and improve your grades with SolveIt.</p>
+        <button onclick="alert('Download feature coming soon!')">Download Now</button>
+        <button onclick="alert('Learn more coming soon!')">Learn More</button>
+    </header>
+
+    <section>
+        <h2>Why Choose SolveIt?</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Scan & Solve</h3>
+                <p>Simply scan your homework question and get instant solutions.</p>
+            </div>
+            <div class="feature">
+                <h3>Expert Help</h3>
+                <p>Connect with qualified tutors for personalized assistance.</p>
+            </div>
+            <div class="feature">
+                <h3>24/7 Support</h3>
+                <p>Get help anytime, anywhere with our round-the-clock support.</p>
+            </div>
+            <div class="feature">
+                <h3>Step-by-Step</h3>
+                <p>Detailed explanations to help you understand concepts better.</p>
+            </div>
+        </div>
+
+        <a href="#" class="btn-download">Download SolveIt</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SolveIt. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script>
+        // Add JavaScript functionality as needed, e.g., for alerts or dynamic features
+    </script>
+</body>
 </html>
