@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+#hero {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+#hero h2 {
+    margin: 0;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin: 0.5rem;
+    display: inline-block;
+}
+
+#why-choose {
+    padding: 2rem;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.features div {
+    flex: 1 1 200px;
+    margin: 1rem;
+}
+
+#cta {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+    }
+}
