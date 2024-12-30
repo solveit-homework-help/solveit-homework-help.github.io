@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="md:w-1/2">
           <div class="relative">
             <img 
-              src="https://via.placeholder.com/400x600" 
+              src="playstore feature graphic.png" 
               alt="SolveIt App Screenshot"
               class="rounded-lg shadow-xl"
             />
@@ -61,8 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
             <!-- Feature cards -->
-            ${createFeatureCard('camera', 'Scan & Solve', 'Simply scan your homework question and get instant solutions')}
-            ${createFeatureCard('message-square', 'Expert Help', 'Connect with qualified tutors for personalized assistance')}
+            ${createFeatureCard('camera', 'Scan & Solve', 'Simply scan your homework question and get instant solutions')}            
             ${createFeatureCard('clock', '24/7 Support', 'Get help anytime, anywhere with our round-the-clock support')}
             ${createFeatureCard('book', 'Step-by-Step', 'Detailed explanations to help you understand concepts better')}
           </div>
