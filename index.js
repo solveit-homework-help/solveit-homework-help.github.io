@@ -6,7 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
   nav.className = 'flex justify-between items-center p-4';
   nav.innerHTML = `
     <div class="flex items-center space-x-2">
-      <div class="w-8 h-8 bg-orange-500 rounded-lg"></div>
+      <div class="w-8 h-8 bg-orange-500 rounded-lg">
+        <img 
+                src="SolveIt logo.png" 
+                alt="SolveIt App Screenshot"
+                class="rounded-lg shadow-xl"
+        />
+      </div>
       <span class="text-xl font-semibold">SolveIt</span>
     </div>
     <div class="flex space-x-4">
