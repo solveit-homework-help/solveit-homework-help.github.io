@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>Page Not Found</title>
     <script>
-        if (window.location.pathname === "/solveit/privacy_policy.html") {
-            window.location.href = "https://solveit-homework-help.github.io/privacy_policy.html";
+        if (window.location.pathname.startsWith("/solveit/")) {
+            const filename = window.location.pathname.split("/solveit/")[1];
+            window.location.href = `https://solveit-homework-help.github.io/${filename}`;
         }
     </script>
 </head>
